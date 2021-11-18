@@ -1,6 +1,4 @@
-# Frontend Mentor - Time tracking dashboard
-
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+*note: this README file written by Front-End Mentor Website
 
 ## Welcome! 👋
 
