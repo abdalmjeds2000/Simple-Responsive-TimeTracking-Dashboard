@@ -1,0 +1,312 @@
+body{
+  padding: 0;
+  margin: 0 auto;
+  color: white;
+  background-color: hsl(226, 43%, 10%);
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.container {
+  background-color: hsl(226, 43%, 10%);
+  display: flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.report-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.user-nav{
+  width: 20%;
+  height: 550px;
+  background-color: hsl(235, 46%, 20%);
+  margin: 40px;
+  margin-right: 0;
+  border-radius: 15px;
+}
+.user-information{
+  background-color: hsl(246, 80%, 60%);
+  margin: 0 auto;
+  padding: 35px;
+  height: calc(350px - 35px);
+  border-radius: 15px;
+}
+.user-information img{
+  width: 100px;
+  border: 5px solid white;
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+.user-information p{
+  font-weight: 300;
+  line-height: 0px;
+}
+.user-information h1{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  padding: 0;
+  margin: 0;
+}
+
+.links-area .links {
+  list-style: none;
+  margin-top: 30px;
+}
+.links-area .links li{
+  margin-top: 20px;
+}
+.links-area .links li a {
+  text-decoration: none;
+  color: hsl(235, 45%, 61%);
+  font-size: 16px;
+}
+.links-area li.active a, 
+.links-area li a:hover {
+  color: white;
+}
+
+
+.activity-history {
+  width: 85%;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+}
+
+.activity-img-background {
+  position: relative;
+  width: 22%;
+  float: left;
+  padding-right: 50px;
+  margin-left: 40px;
+  margin-bottom: 90px;
+  border-radius: 15px;
+}
+.activity-img-background > img {
+  position: absolute;
+  width: 80px;
+  right: 20px;
+}
+
+.img-section-work {
+  background-color: hsl(15, 100%, 70%);
+}
+.img-section-play {
+  background-color: hsl(195, 74%, 62%);
+}
+.img-section-study {
+  background-color: hsl(348, 100%, 68%);
+}
+.img-section-exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+.img-section-social {
+  background-color: hsl(264, 64%, 52%);
+}
+.img-section-selfCare {
+  background-color: hsl(43, 84%, 65%);
+}
+.activity-section {
+  width: 100%;
+  height: 155px;
+  background-color: hsl(235, 46%, 20%);
+  padding: 25px;
+  border-radius: 15px;
+  position: relative;
+  top: 50px;
+}
+.activity-section:hover {
+  background-color: hsl(235, 45%, 29%);
+  cursor: pointer;
+}
+.activity-section h3 {
+  font-weight: 700;
+  line-height: 0;
+  margin-bottom: 65px; 
+  font-size: 18px;
+}
+.activity-section img {
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  cursor: pointer;
+  width: 25px;
+  padding: 5px;
+}
+
+
+.activity-section .current {
+  font-size: 54px;
+  line-height: 0;
+}
+.activity-section .previous {
+  font-size: 16px;
+  color: hsl(235, 45%, 61%);
+
+}
+
+
+@media (max-width: 1000px) and (min-width: 150px) {
+
+
+  
+  .container {
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    margin-top: 25px;
+  }
+  
+  .report-container {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+  }
+  .user-nav{
+    width: 88%;
+    height: 190px;
+    background-color: hsl(235, 46%, 20%);
+    margin: 40px;
+    margin-right: 0;
+    border-radius: 15px;
+  }
+  .user-information{
+    background-color: hsl(246, 80%, 60%);
+    margin: 0 auto;
+    padding: 35px;
+    height: calc(100px - 35px);
+    border-radius: 15px;
+  }
+  .user-information img{
+    width: 60px;
+    margin-bottom: 40px;
+    float: left;
+    margin-right: 10px;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+  .user-information p{
+    font-weight: 300;
+    line-height: 0px;
+    font-size: 1.2em;
+  }
+  .user-information h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links-area .links {
+    list-style: none;
+    margin-top: 0;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+    position: relative;
+    top: -15px;
+  }
+  
+  .links-area .links li {
+    float: left;
+    padding-right: 30px;
+    position: relative;
+    left: 25px;
+  }
+  .links-area .links li a {
+    text-decoration: none;
+    color: hsl(235, 45%, 61%);
+    font-size: 16px;
+    
+    
+  }.links-area li.active a, 
+  .links-area li a:hover {
+    color: white;
+  }
+  
+  
+  .activity-history {
+    width: 100%;
+    padding: 0;
+  }
+  .activity-img-background {
+    width: 75%;
+    height: 200px;
+    margin-bottom: 80px;
+  }
+  .activity-img-background > img {
+    position: absolute;
+    width: 80px;
+    right: 30px;
+  }
+  .img-section-work {
+    background-color: hsl(15, 100%, 70%);
+  }
+  .img-section-play {
+    background-color: hsl(195, 74%, 62%);
+  }
+  .img-section-study {
+    background-color: hsl(348, 100%, 68%);
+  }
+  .img-section-exercise {
+    background-color: hsl(145, 58%, 55%);
+  }
+  .img-section-social {
+    background-color: hsl(264, 64%, 52%);
+  }
+  .img-section-selfCare {
+    background-color: hsl(43, 84%, 65%);
+  }
+  .activity-section {
+    width: 100%;
+    height: 120px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+  }
+  .activity-section:hover {
+    background-color: hsl(235, 45%, 29%);
+    cursor: pointer;
+  }
+  .activity-section h3 {
+    font-weight: 700;
+    line-height: 0;
+    margin-bottom: 65px; 
+    font-size: 18px;
+  }
+  .activity-section img {
+    position: absolute;
+    right: 25px;
+    top: 35px;
+    cursor: pointer;
+    width: 25px;
+    padding: 5px;
+  }
+  
+  .activity-section .current {
+    font-size: 44px;
+    line-height: 0;
+  }
+  .activity-section .previous {
+    font-size: 15px;
+    line-height: 20px;
+    color: hsl(235, 45%, 61%);
+    text-align: right;
+    position: relative;
+    top: -40px;
+  }
+
+}
+
